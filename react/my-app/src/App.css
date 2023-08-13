@@ -1,0 +1,186 @@
+#root{
+  background-color: #1D9F9C;
+  position: relative;
+  z-index: -2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  position: relative;
+  z-index: -2;
+}
+
+p, h1{
+  margin: 0;
+}
+
+header{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.icons{
+  color: white;
+  display: flex;
+  gap: 75px;
+  width: 35%;
+}
+
+.icon{
+  text-align: center;
+}
+
+.icons p{
+  font-size: 23px;
+  text-align: center;
+}
+
+.ekb-icon{
+  margin-left: 20px;
+}
+
+.footer{
+  overflow: hidden;
+  background-color: black;
+}
+
+.footer img{
+  width: 100%;
+}
+
+.main-nav{
+  margin-top: 12%;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.guest-translate{
+  color: #1D9F9C;
+  font-size: 56px;
+  transform: rotate(5.52deg);
+  font-family: Montserrat;
+  margin-left: 56px;
+  font-weight: 700;
+}
+
+.in-word{
+  font-size: 64px;
+  transform: rotate(5.52deg);
+  font-family: Montserrat;
+  margin-right: 200px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.nav-arrow-left{
+  position: absolute;
+  left: 40%;
+  top: -27%;
+}
+
+.nav-arrow-right{
+  position: absolute;
+  left: 41%;
+  top: 50%;
+}
+
+.Container, .voiceContainer{
+  width: 723px;
+  border-radius: 33px;
+  background: #FFF;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.voiceContainer{
+  height: 400px;
+}
+
+.voiceContainer p{
+  height: 70%;
+  text-align: center;
+  font-size: 32px;
+}
+
+.voiceContainer button{
+  text-align: center;
+}
+
+video{
+  margin-left: 24%;
+  border-radius: 47px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.start{
+  display: block;
+  margin: 0 auto;
+
+}
+
+.hidden{
+  display: none;
+}
+
+.guest-text{
+  font-size: 32px;
+  text-align: center;
+}
+
+.diaktology{
+  color: #1D9F9C;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+.history{
+  background-color: white;
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  min-height: 20%;
+  text-align: center;
+}
+
+.element{
+  padding: 10px, 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.record-voice{
+  margin-left: 40%;
+}
+
+.swapper{
+  display: flex;
+  margin-left: 33%;
+  gap:10px;
+  margin-bottom: 10px;
+}
+
+.swapper img{
+  margin-left: auto;
+}
+
+.active{
+  border: 3px solid #1D9F9C;
+  border-radius: 50%;
+}
+
+canvas{
+  display: none;
+}
